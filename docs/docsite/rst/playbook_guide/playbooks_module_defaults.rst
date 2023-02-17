@@ -14,7 +14,7 @@ Here is a basic example:
         ansible.builtin.file:
           owner: root
           group: root
-          mode: 0755
+          mode: "0755"
       tasks:
         - name: Create file1
           ansible.builtin.file:
